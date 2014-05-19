@@ -4,6 +4,7 @@ PATH
     subscribem (0.0.1)
       bcrypt-ruby (= 3.1.2)
       dynamic_form (= 1.1.4)
+      factory_girl (= 4.1.0)
       rails (~> 4.1.1)
       warden (= 1.2.3)
 
@@ -48,6 +49,8 @@ GEM
     diff-lcs (1.2.5)
     dynamic_form (1.1.4)
     erubis (2.7.0)
+    factory_girl (4.1.0)
+      activesupport (>= 3.0.0)
     hike (1.2.3)
     i18n (0.6.9)
     json (1.8.1)

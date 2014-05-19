@@ -15,6 +15,7 @@ module Subscribem
   # =>  to find the user with that ID that was stored in the session by serialize_into_session.
     initializer "subscribem.middleware.warden" do 
       Rails.application.config.middleware.use Warden::Manager do |manager|
+        manager.default_strategies :password
         manager.serialize_into_session do |user|
           user.id
         end
