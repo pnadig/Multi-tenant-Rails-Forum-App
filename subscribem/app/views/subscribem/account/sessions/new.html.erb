@@ -1,4 +1,5 @@
 <h2>Signin</h2> 
+<%= link_to "New User?", user_sign_up_url %>
 <%= form_for @user,:url=> sessions_url do|f| %>
   <p>
   <%= f.label :email %><br> 
